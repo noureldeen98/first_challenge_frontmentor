@@ -1,0 +1,61 @@
+body{
+    background-image:url(images/bg-desktop.svg); 
+    background-color:  hsl(257, 40%, 49%) ;
+    height: auto;
+}
+
+.container{
+    min-width: 375px;
+    max-width: 1440px;
+}
+
+
+
+.container .row .col h2{
+    color: white; 
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+
+}
+
+.container .row .col p{
+    color: whitesmoke; 
+    font-weight: 400px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.container .row .col button{
+    border-radius: 20px; 
+    width: 150px; 
+    height: 40px; 
+    color: hsl(257, 40%, 49%);
+    text-align: center;
+}
+
+
+.container .row .col button:hover{
+    background-color:  hsl(300, 69%, 71%);
+    color: white;
+}
+
+.container .row .col .icons{
+    float: right; 
+    margin-top: 280px;
+    margin-right: 170px;
+    fill: white;
+}
+
+.container .row .col .icons .facebook:hover{
+    fill: hsl(300, 69%, 71%) ;
+}
+
+.container .row .col .icons .twitter:hover{
+    fill: hsl(300, 69%, 71%) ;
+}
+
+.container .row .col .icons .instagram:hover{
+    fill: hsl(300, 69%, 71%) ;
+}
+
+
+
